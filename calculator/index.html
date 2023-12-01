@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="container">
+        <div class="cal">
+        <div class="display">
+        <input type="text" id="display">
+        </div>
+        <div class="btn1">
+        <button class="btn" id="one" value="Ac" onclick="del()">AC</button>
+        <button class="btn" id="two" value="DE" onclick="clr()">DE</button>
+        <button class="btn" id="three" value="%" onclick="calc(this)">%</button>
+        <button class="btn" id="four" value="/" onclick="calc(this)">/</button>
+        <button class="btn"  value="7"onclick="calc(this)">7</button>
+        <button class="btn"  value="8" onclick="calc(this)">8</button>
+        <button class="btn" value="9" onclick="calc(this)">9</button>
+        <button class="btn"  value="*" id="five" onclick="calc(this)">*</button>
+        <button class="btn"  value="4" onclick="calc(this)">4</button>
+        <button class="btn"  value="5" onclick="calc(this)">5</button>
+        <button class="btn"  value="6" onclick="calc(this)">6</button>
+        <button class="btn"  value="-" id="six" onclick="calc(this)">-</button>
+        <button class="btn"  value="1" onclick="calc(this)">1</button>
+        <button class="btn"  value="2" onclick="calc(this)">2</button>
+        <button class="btn"  value="3" onclick="calc(this)">3</button>
+        <button class="btn"  value="+" id="seven" onclick="calc(this)">+</button>
+        <button class="btn"  value="00" onclick="calc(this)">00</button>
+        <button class="btn"  value="0" onclick="calc(this)">0</button>
+        <button class="btn"  value="."onclick="calc(this)">.</button>
+        <button class="btn"  value="=" id="equal" onclick="answer()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
